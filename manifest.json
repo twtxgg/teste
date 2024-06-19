@@ -1,0 +1,15 @@
+{
+    "id": "org.myexampleaddon",
+    "version": "1.0.0",
+    "name": "simple Big Buck Bunny example",
+    "types": [ "movie" ],
+    "catalogs": [ { "type": "movie", "id": "bbbcatalog" } ],
+    "resources": [
+        "catalog",
+        {
+            "name": "stream",
+            "types": [ "movie" ],
+            "idPrefixes": [ "tt" ]
+        }
+    ]
+}
