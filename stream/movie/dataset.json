@@ -1,4 +1,6 @@
-"dataset": {
+"dataset": [
+    {
     "tt1254207": { name: "The Wizard of Oz", type: "movie", infoHash: "24c8802e2624e17d46cd555f364debd949f2c81e", fileIdx: 0 },
     "tt1254207": { name: "Metropolis", type: "movie", infoHash: "dca926c0328bb54d209d82dc8a2f391617b47d7a", fileIdx: 1 },
 }
+]
