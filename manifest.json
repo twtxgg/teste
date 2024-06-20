@@ -1,15 +1,21 @@
-{
-    "id": "org.myexampleaddon",
-    "version": "1.0.0",
-    "name": "simple Big Buck Bunny example",
-    "types": [ "movie" ],
-    "catalogs": [ { "type": "movie", "id": "bbbcatalog" } ],
+{           
+    "id": "org.stremio.example",
+    "version": "0.0.1",
+    "description": "Example Stremio Addon",
+    "name": "Example Addon",
     "resources": [
         "catalog",
+        "stream"
+    ],
+    "types": [
+        "movie",
+        "series"
+    ],
+    "catalogs": [
         {
-            "name": "stream",
-            "types": [ "movie" ],
-            "idPrefixes": [ "tt" ]
+            "type": "movie",
+            "id": "moviecatalog"
         }
-    ]
+    ],
+    "idPrefixes": ["tt"]
 }
