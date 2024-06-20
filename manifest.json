@@ -15,6 +15,10 @@
         {
             "type": "movie",
             "id": "moviecatalog"
+        },
+        {
+        "type": "series",
+        "id": "seriescatalog"
         }
     ],
     "idPrefixes": ["tt"]
